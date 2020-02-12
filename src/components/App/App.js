@@ -11,7 +11,7 @@ class App extends React.Component {
         <h2 className={styles.subtitle}>{pageContents.subtitle}</h2>
         <List {...listData} src={'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png'}/>
       </main>
-    )
+    );
   }
 }
 
