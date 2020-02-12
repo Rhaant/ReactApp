@@ -10,8 +10,9 @@ class Card extends React.Component {
     }
 
     render() {
+      const {title} = this.props;
       return (
-        <section className={styles.component} key={this.props.key}>{this.props.title}</section>
+        <section className={styles.component} key={this.props.key}>{title}</section>
       );
     }
 }
