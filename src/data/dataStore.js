@@ -12,6 +12,7 @@ export const settings = {
   },
   defaultListDescription: '<p>I can do all the things!!!</p>',
   defaultColumnIcon: 'list-alt',
+  HeaderIcon: 'dragon',
 };
 
 export const pageContents = {
@@ -146,6 +147,18 @@ const initialStoreData = {
   lists: [...lists],
   columns: [...columns],
   cards: [...cards],
+};
+
+export const InfoData = {
+  title: 'Info',
+  image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
+  pageContent: 'Basic Info Example',
+};
+
+export const DataFaq = {
+  title: 'FAQ',
+  image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
+  pageContent: 'Basic FAQ Example',
 };
 
 export default initialStoreData;
